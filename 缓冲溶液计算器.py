@@ -1,8 +1,8 @@
 # 定义函数
 def HAc(pH,concentration,V):
     pKa=4.76
-    c1=concentration/(10**(pH-pKa)+1)
-    c2=concentration/(10**(pKa-pH)+1)
+    c2=concentration/(10**(pH-pKa)+1)
+    c1=concentration/(10**(pKa-pH)+1)
     array=[]
     mw1=60.05
     mw2=82.03
@@ -14,8 +14,8 @@ def HAc(pH,concentration,V):
 
 def NaHCO3(pH,concentration,V):
     pKa=10.32
-    c1=concentration/(10**(pH-pKa)+1)
-    c2=concentration/(10**(pKa-pH)+1)
+    c2=concentration/(10**(pH-pKa)+1)
+    c1=concentration/(10**(pKa-pH)+1)
     array=[]
     mw1=84.0
     mw2=106.0
@@ -27,8 +27,8 @@ def NaHCO3(pH,concentration,V):
 
 def NaH2PO4(pH,concentration,V):
     pKa=7.21
-    c1=concentration/(10**(pH-pKa)+1)
-    c2=concentration/(10**(pKa-pH)+1)
+    c2=concentration/(10**(pH-pKa)+1)
+    c1=concentration/(10**(pKa-pH)+1)
     array=[]
     mw1=119.98
     mw2=141.96
@@ -39,8 +39,8 @@ def NaH2PO4(pH,concentration,V):
     return array
 def Citric(pH,concentration,V):
     pKa=7.21
-    c1=concentration/(10**(pH-pKa)+1)
-    c2=concentration/(10**(pKa-pH)+1)
+    c2=concentration/(10**(pH-pKa)+1)
+    c1=concentration/(10**(pKa-pH)+1)
     array=[]
     mw1=210.14
     mw2=294.12
